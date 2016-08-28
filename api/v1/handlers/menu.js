@@ -28,7 +28,7 @@ MenuHandler.prototype.create = function(req, res, next) {
 };
 
 
-MenuHandler.prototype.param = function (req, res, next, id) {
+MenuHandler .prototype.param = function (req, res, next, id) {
     if (!validator.isMongoId(id)) {
         return res.status(400).end();
     }

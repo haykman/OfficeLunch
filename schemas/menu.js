@@ -15,7 +15,7 @@ var MenuSchema = new Schema({
 
     deleted: {
         type: Boolean,
-        default: false,
+        default: false, 
         index: true
     },
 
