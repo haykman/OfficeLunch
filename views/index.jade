@@ -1,44 +1,9 @@
 doctype
-<!--[if lt IE 7]>      <html lang="en" ng-app="addressbook" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" ng-app="addressbook" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" ng-app="addressbook" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="addressbook" class="no-js"> <!--<![endif]-->
 head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    title Address Book
+    title Office Lunch
 
     meta(name='description', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-
-    link(rel='stylesheet', href='bower_components/html5-boilerplate/css/normalize.css')
-    link(rel='stylesheet', href='bower_components/html5-boilerplate/css/main.css')
-    link(rel='stylesheet', href='bower_components/bootstrap/dist/css/bootstrap.min.css')
-    link(rel='stylesheet', href='bower_components/bootstrap/dist/css/bootstrap-theme.min.css')
-
-    script(src='bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js')
 body
-    <!--[if lt IE 7]>
-    p.browsehappy
-        | You are using an
-        strong outdated
-        |  browser. Please
-        a(href='http://browsehappy.com/') upgrade your browser
-        |  to improve your experience.
-    <!--<![endif]-->
-
-
-    .container(ng-view='')
-
-    // In production use:
-      script(src='//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js')
-      script(src='//cdnjs.cloudflare.com/ajax/libs/restangular/1.3.1/restangular.min.js')
-
-    script(src='bower_components/lodash/lodash.js')
-    script(src='bower_components/jquery/dist/jquery.js')
-    script(src='bower_components/angular/angular.js')
-    script(src='bower_components/angular-route/angular-route.js')
-    script(src='bower_components/restangular/dist/restangular.js')
-    script(src='app/app.js')
-    script(src='app/addresses/addresses.js')
-    script(src='app/addresses/addresses.controller.js')

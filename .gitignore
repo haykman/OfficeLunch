@@ -4,3 +4,4 @@ tmp
 .DS_Store
 .idea
 web/assets
+!web/assets/js/custom.js
